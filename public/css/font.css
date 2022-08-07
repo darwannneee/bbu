@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+
+.nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.kami {
+    font-family: 'Roboto Slab', serif;
+}
+
+.deskripsi {
+    font-family: 'Poppins', sans-serif;
+}
