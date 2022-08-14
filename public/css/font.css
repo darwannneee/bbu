@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Poppins:wght@300&family=Roboto+Mono&family=Roboto+Slab&display=swap');
 
 .nav {
     font-family: 'Roboto Mono', monospace;
@@ -10,4 +10,8 @@
 
 .deskripsi {
     font-family: 'Poppins', sans-serif;
+}
+
+.kenapa {
+    font-family: 'Maven Pro', sans-serif;
 }

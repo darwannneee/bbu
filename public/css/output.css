@@ -556,6 +556,16 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .ml-8 {
   margin-left: 2rem;
 }
@@ -592,6 +602,22 @@ video {
   margin-top: 1.75rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -624,8 +650,16 @@ video {
   width: 9rem;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .rounded-full {
@@ -646,6 +680,11 @@ video {
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -654,9 +693,9 @@ video {
   letter-spacing: 0.025em;
 }
 
-.text-slate-400 {
+.text-slate-500 {
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -680,66 +719,25 @@ video {
 }
 
 @media (min-width: 640px) {
-  .tablet\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
   .tablet\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
-  }
-
-  .tablet\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .tablet\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .tablet\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .tablet\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .tablet\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .tablet\:ml-16 {
-    margin-left: 4rem;
-  }
-
-  .tablet\:ml-24 {
-    margin-left: 6rem;
-  }
-
-  .tablet\:ml-32 {
-    margin-left: 8rem;
-  }
-
-  .tablet\:ml-56 {
-    margin-left: 14rem;
-  }
-
-  .tablet\:ml-60 {
-    margin-left: 15rem;
   }
 
   .tablet\:ml-64 {
     margin-left: 16rem;
   }
 
-  .tablet\:grid {
-    display: grid;
+  .tablet\:ml-16 {
+    margin-left: 4rem;
   }
 
-  .tablet\:h-20 {
-    height: 5rem;
+  .tablet\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .tablet\:grid {
+    display: grid;
   }
 
   .tablet\:grid-cols-2 {
